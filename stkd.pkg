@@ -1,0 +1,5 @@
+v 3
+d stkd
+d 该命令的作用是根据提供的股票代码从和讯网爬取该公司的详细信息。
+f stkd.ado
+f stkd.sthlp
