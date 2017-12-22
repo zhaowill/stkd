@@ -19,7 +19,7 @@
 {marker description}{...}
 {title:描述}
 
-{pstd}{cmd:codelist} 是一列你想要查询详细信息的股票代码列表。如果不足六位，该命令会自动在代码前面加0补齐至六位。{p_end}
+{pstd}{cmd:codelist} 是一列你想要查询详细信息的股票代码列表。如果不足六位，该命令会自动在代码前面加0补齐至六位。如果股票代码多于一个，系统会自动保存信息文件。{p_end}
 
 {marker options}{...}
 {title:选项}
@@ -123,6 +123,12 @@
 {p_end}
 {phang}
 {stata `"stkd 7, c"'}
+{p_end}
+{phang}
+{stata `"stkd 1 2 4 7"'}
+{p_end}
+{phang}
+{stata `"stkd 1 2 4 5, fmt(dta)"'}
 {p_end}
 
 {title:作者}

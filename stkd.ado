@@ -147,11 +147,13 @@ program define stkd, rclass
 	if "`iterm'" == "gsjj"{
 		local iterm = "公司简介"
 	}
-	clear all 
+	clear 
 	qui set more off, permanently
-	* 我要永远地为你设置set more off，
+	* 我要永远地为你设置set more off
+	local itermtemp = "`iterm'"
 	foreach stkcode in `firms'{
-		clear all 
+		local iterm = "`itermtemp'"
+		clear
 		while length("`stkcode'") < 6{
 			local stkcode = "0" + "`stkcode'"
 		}
@@ -292,6 +294,7 @@ program define stkd, rclass
 				}
 			}
 		}
+		return matrix `stkcode' = st_data(.,.)
 	}
 	if "`cite'" != ""{
 		di as yellow "程振兴. stkdetail: 根据输入的股票代码查询股票的详细信息. version: 0.0.0.9000 2017.12.22"
