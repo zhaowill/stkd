@@ -50,17 +50,29 @@ sysdir
 > jcxx: 【基础信息】
 
 >> gpdm: 股票代码
+
 >> gsqc: 公司全称
+
 >> gsywmc: 公司英文名称
+
 >> cym: 曾用名
+
 >> clrq: 成立日期
+
 >> sshy: 所属行业
+
 >> ssgn: 所属概念
+
 >> ssdy: 所属地域
+
 >> fddbr: 法定代表人
+
 >> dlds: 独立董事
+
 >> zxfwjg: 咨询服务机构
+
 >> kjssws: 会计师事务所
+
 >> zqswdb: 证券事务代表
 
 > jyfw: 【经营范围】
@@ -70,26 +82,43 @@ sysdir
 > zqxx: 【证券信息】
 
 >> ssrq: 上市日期
+
 >> ssjys: 上市交易所
+
 >> zqlx: 证券类型
+
 >> ltgb: 流通股本
+
 >> zgb: 总股本
+
 >> zcxs: 主承销商
+
 >> fxj: 发行价
+
 >> sssrkpj: 上市首日开盘价
+
 >> sssrzdf: 上市首日涨跌幅
+
 >> sssrhsl: 上市首日换手率
+
 >> tbclhts: 特别处理和退市
+
 >> fxsyl: 发行市盈率
+
 >> zxsyl: 最新市盈率
 
 > lxfs: 【联系方式】
 
 >> lxdhdm: 联系电话（董秘）
+
 >> gscz: 公司传真
+
 >> dzyx: 电子邮箱
+
 >> gswz: 公司网站
+
 >> lxr: 联系人
+
 >> yzbm: 公司邮编
 
 > gsjj: 【公司简介】
