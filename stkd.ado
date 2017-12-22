@@ -294,7 +294,6 @@ program define stkd, rclass
 				}
 			}
 		}
-		return matrix `stkcode' = st_data(.,.)
 	}
 	if "`cite'" != ""{
 		di as yellow "程振兴. stkdetail: 根据输入的股票代码查询股票的详细信息. version: 0.0.0.9000 2017.12.22"
